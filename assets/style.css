@@ -22,6 +22,11 @@ body {
 	font-size: 26px;
 }
 
+.h1_subtitle {
+	font-size: 14px;
+	font-style: italic;
+}
+
 nav ul {
 	display: flex;
 	list-style-type: none;
@@ -225,6 +230,7 @@ nav a {
 }
 .form-container {
 	flex : 2;
+	margin-bottom: 60px;
 
 }
 form {
@@ -254,6 +260,19 @@ form textarea {
 input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
+}
+
+.local-container {
+	margin: auto;
+	width: 30%;
+	text-align: center;
+	border: solid 1px black;
+	padding: 30px;
+	font-weight: 600;
+	color: #000;
+	line-height: 2;
+	background-color:#BEB45A;
+	box-shadow: 0px 5px 20px #999;
 }
 
 @media all and (max-width: 1180px) {
