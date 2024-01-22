@@ -64,6 +64,7 @@
       $.fn.mauGallery.methods.nextImage(options.lightboxId)
     );
     $(".gallery").on("keydown", (e) => {
+    e.preventDefault()
     if (e.shiftKey === true) {
       $.fn.mauGallery.methods.prevImage(options.lightboxId)
     } else {
